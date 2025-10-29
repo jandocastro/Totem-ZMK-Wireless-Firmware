@@ -35,8 +35,8 @@ layers:
   - {t: '''', h: '"'}
   - {t: DEL, h: LCTRL}
   - RET
-  - {t: TAB, h: Nav}
-  - {t: DEL, h: Sym}
+  - {t: TAB, h: Sym}
+  - {t: DEL, h: Nav}
   - SPACE
   - '-'
   Nav:
@@ -74,8 +74,8 @@ layers:
   - CAPSLOCK
   - '0'
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Sym:
@@ -113,8 +113,8 @@ layers:
   - +
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: Default, h: toggle}
   Func:
