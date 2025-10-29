@@ -41,43 +41,43 @@ layers:
   - '-'
   Nav:
   - {t: ▽, type: trans}
-  - Sft+Gui+ 3
-  - UP ARROW
-  - {t: ▽, type: trans}
-  - '{'
-  - '}'
   - '7'
   - '8'
   - '9'
+  - '{'
+  - '}'
+  - {t: ▽, type: trans}
+  - UP ARROW
+  - {t: ▽, type: trans}
   - +
   - {t: ▽, type: trans}
-  - LEFT
-  - DOWN ARROW
-  - RIGHT
-  - (
-  - )
   - '4'
   - '5'
   - '6'
+  - (
+  - )
+  - LEFT
+  - DOWN ARROW
+  - RIGHT
   - '-'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - PAGE UP
-  - {t: ▽, type: trans}
-  - PAGE DOWN
-  - '['
-  - ']'
   - '1'
   - '2'
   - '3'
+  - '['
+  - ']'
+  - PAGE UP
+  - {t: ▽, type: trans}
+  - PAGE DOWN
   - {t: '*', h: toggle}
   - CAPSLOCK
-  - {t: ▽, type: trans}
+  - '0'
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '0'
+  - {t: ▽, type: trans}
   Sym:
   - '!'
   - '@'
