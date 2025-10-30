@@ -213,8 +213,8 @@
         Navigation {
             label = "Nav";
             bindings = <
-        &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp BACKSLASH   &kp UP_ARROW    &trans           &kp PLUS
-        &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp MINUS
+        &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp BACKSLASH   &kp UP_ARROW    &trans           &trans
+        &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PLUS
 &trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kp PAGE_UP     &trans          &kp PAGE_DOWN    &kt KP_MULTIPLY  &kp CAPSLOCK
                               &kp NUMBER_0  &trans        &trans                  &trans                 &trans          &trans
             >;
@@ -223,10 +223,10 @@
         digits {
             label = "Sym";
             bindings = <
-           &kp EXCLAMATION       &kp AT            &kp HASH                &kp DOLLAR         &kp PERCENT      &kp CARET  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL
-           &kp LS(LC(L))         &kp LS(LC(W))     &trans                  &trans             &trans           &trans     &trans        &trans                &trans                 &kp STAR
-&kp TILDE  &kp LA(LS(UP_ARROW))  &kp LA(LS(DOWN))  &kp LA(LS(LEFT_ARROW))  &kp LA(LS(RIGHT))  &kp LA(LS(B))    &trans     &trans        &trans                &trans                 &kp PERIOD  &kp PLUS
-                                                   &trans                  &trans             &trans           &trans     &trans        &to 0
+           &kp EXCLAMATION       &kp AT            &kp HASH                &kp DOLLAR         &kp PERCENT      &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LPAR  &kp RPAR
+           &kp LS(LC(L))         &kp LS(LC(W))     &trans                  &trans             &trans           &trans     &trans         &trans        &trans    &kp EQUAL
+&kp TILDE  &kp LA(LS(UP_ARROW))  &kp LA(LS(DOWN))  &kp LA(LS(LEFT_ARROW))  &kp LA(LS(RIGHT))  &kp LA(LS(B))    &trans     &trans         &trans        &trans    &kp PERIOD  &kp PLUS
+                                                   &trans                  &trans             &trans           &trans     &trans         &to 0
             >;
         };
 

@@ -49,7 +49,7 @@ layers:
   - \
   - UP ARROW
   - {t: ▽, type: trans}
-  - +
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '4'
   - '5'
@@ -59,7 +59,7 @@ layers:
   - LEFT
   - DOWN ARROW
   - RIGHT
-  - '-'
+  - +
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '1'
@@ -85,10 +85,10 @@ layers:
   - $
   - '%'
   - ^
+  - '&'
   - '*'
   - (
   - )
-  - '='
   - PANE ▶
   - Sft+Ctl+ W
   - {t: ▽, type: trans}
@@ -98,7 +98,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '*'
+  - '='
   - '~'
   - Alt+Sft+ UP ARROW
   - Alt+Sft+ DOWN
