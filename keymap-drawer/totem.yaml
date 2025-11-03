@@ -32,7 +32,7 @@ layers:
   - ','
   - .
   - /
-  - {t: '''', h: '"'}
+  - ''''
   - {t: DEL, h: LCTRL}
   - RET
   - {t: TAB, h: Sym}
@@ -40,7 +40,7 @@ layers:
   - SPACE
   - '-'
   Nav:
-  - {t: ▽, type: trans}
+  - LEFT ALT
   - '7'
   - '8'
   - '9'
@@ -128,10 +128,10 @@ layers:
   - F8
   - F9
   - F10
+  - BRIGHTNESS INC
+  - BRIGHTNESS DEC
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - F23
   - F24
   - MUTE
   - PP
