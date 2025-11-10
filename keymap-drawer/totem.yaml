@@ -48,8 +48,8 @@ layers:
   - '}'
   - \
   - UP ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - HOME
+  - END
   - {t: ▽, type: trans}
   - '4'
   - '5'
@@ -128,8 +128,8 @@ layers:
   - F8
   - F9
   - F10
-  - BRIGHTNESS INC
   - BRIGHTNESS DEC
+  - BRIGHTNESS INC
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F24
