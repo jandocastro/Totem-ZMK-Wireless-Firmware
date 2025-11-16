@@ -68,7 +68,7 @@ layers:
   - '['
   - ']'
   - PAGE UP
-  - {t: ▽, type: trans}
+  - '|'
   - PAGE DOWN
   - {t: '*', h: toggle}
   - CAPSLOCK
