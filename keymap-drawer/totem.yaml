@@ -36,7 +36,7 @@ layers:
   - {t: DEL, h: LCTRL}
   - RET
   - {t: TAB, h: Sym}
-  - {t: Nav, h: toggle}
+  - Nav
   - SPACE
   - '-'
   Nav:
@@ -75,7 +75,7 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Sym:
